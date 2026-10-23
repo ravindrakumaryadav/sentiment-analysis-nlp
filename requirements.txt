@@ -1,0 +1,9 @@
+mlflow>=3.16
+scikit-learn>=1.7
+xgboost>=3.0
+pandas>=2.3
+matplotlib>=3.10
+psutil  # system metrics
+# optional, for evaluating / logging the transformer:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install transformers accelerate
